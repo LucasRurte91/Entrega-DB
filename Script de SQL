@@ -1,6 +1,5 @@
-CREATE DATABASE lucasRuarte02;
+CREATE DATABASE lucasRuarte;
 USE lucasRuarte;
-
 
 CREATE TABLE `usuario` (
    `id` INT NOT NULL AUTO_INCREMENT,
@@ -83,6 +82,3 @@ INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria7');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria8');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria9');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria10');
-
-
-
