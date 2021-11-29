@@ -39,16 +39,16 @@ ALTER TABLE `categoria_nota` ADD CONSTRAINT `FK_5ba65736-45aa-4c67-857d-2aed0766
 
 ALTER TABLE `categoria_nota` ADD CONSTRAINT `FK_0072b2c4-48a0-429f-ade3-98b47c951a59` FOREIGN KEY (`categoria_id`) REFERENCES `categorias`(`id`)  ;
  
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Lucas', 'Lucas@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Miguel', 'Miguel@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Juan', 'Juan001@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Javier', 'Javier@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Eze', 'Eze@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Lautaro', 'Lautaro@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Mauricio', 'Mauricio@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Patricio', 'Patricio@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Valentin', 'Valentin@gmail.com');
-INSERT INTO `usuarios` (`id`, `nombre`, `email`) VALUES (NULL, 'Camilo', 'Camilo@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Lucas', 'Lucas@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Miguel', 'Miguel@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Juan', 'Juan001@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Javier', 'Javier@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Eze', 'Eze@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Lautaro', 'Lautaro@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Mauricio', 'Mauricio@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Patricio', 'Patricio@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Valentin', 'Valentin@gmail.com');
+INSERT INTO `usuario` (`id`, `nombre`, `email`) VALUES (NULL, 'Camilo', 'Camilo@gmail.com');
 
 INSERT INTO `notas` (`id`, `titulo`, `usuario_id`, `descripcion`, `fecha_creacion`, `fecha_modificacion`, `eliminable`) VALUES (NULL, 'titulo1', null , 'Lorem Ipsum Text', '2018-08-12','2021-11-11' '0');
 INSERT INTO `notas` (`id`, `titulo`, `usuario_id`, `descripcion`, `fecha_creacion`, `fecha_modificacion`, `eliminable`) VALUES (NULL, 'titulo2', null , 'Lorem Ipsum Text', '2018-08-12','2021-11-11' '0');
@@ -82,3 +82,4 @@ INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria7');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria8');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria9');
 INSERT INTO `categorias` (`id`, `nombre`) VALUES (NULL, 'categoria10');
+
